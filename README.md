@@ -4,6 +4,8 @@ Website for the Student Portal is designed for suiting the needs of the student 
 Student Panel consists of a ‗home ‘section, ‗about us ‘section, ‗view details ‘section, ‗contact us ‘section and ‗feedback ‘section which provides the facility of viewing the uploaded assignments and view their marks. Feedback section provides the facility to students to ask the queries and doubts by submitting their requests using their email id and the admin will receive the doubts via mail. 
  
 In website, HTML and CSS builds the basic structure and design of the website whereas JavaScript adds interactivity to it. Spring MVC is used to send and receive form data. JDBC is used to connect the website to database. Spring mail API is used to send mail. 
+Encryption is done using DES where every time new key is generated and that key is stored in database so that when we input our password we first decrpyt our password through database and then compare it with the input data.
+
 Thing To do Before Running 
 1) In src/main/webapp/WEB-INF/spring-servlet.xml change value="Your Email ID" in line 21 and Enter value="Your Email Id password" in line 22 for feedback page.
 2) For this project to run first time it needs internet connection to download all jar file present in pom.xml(No need to download extra jar files)
